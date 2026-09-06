@@ -17,7 +17,7 @@ public class Task10 {
             original[i] = random.nextInt(201) - 100; // From -100 to 100
             System.out.print(original[i] + " ");
 
-            // Counts for new arrays size
+
             if (original[i] % 2 == 0) evenCount++;
             else oddCount++;
 
@@ -26,7 +26,7 @@ public class Task10 {
         }
         System.out.println();
 
-        // Arrays allocation
+
         int[] evenArr = new int[evenCount];
         int[] oddArr = new int[oddCount];
         int[] negArr = new int[negativeCount];
@@ -42,7 +42,7 @@ public class Task10 {
             else if (num > 0) posArr[pIdx++] = num;
         }
 
-        // Print results
+
         printArray("Even elements", evenArr);
         printArray("Odd elements", oddArr);
         printArray("Negative elements", negArr);

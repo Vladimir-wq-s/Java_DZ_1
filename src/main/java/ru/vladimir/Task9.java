@@ -4,12 +4,12 @@ import java.util.Random;
 
 public class Task9 {
     public static void run() {
-        int[] array = new int[20]; // Create array with 20 elements
+        int[] array = new int[20];
         Random random = new Random();
 
         System.out.print("Generated array: ");
         for (int i = 0; i < array.length; i++) {
-            // Numbers from -100 to 100
+            // Числа от -100 до 100
             array[i] = random.nextInt(201) - 100;
             System.out.print(array[i] + " ");
         }

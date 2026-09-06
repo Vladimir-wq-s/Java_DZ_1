@@ -20,7 +20,7 @@ public class Task11 {
         drawLine(length, isHorizontal, symbol);
     }
 
-    // Custom method to draw a line based on parameters
+
     public static void drawLine(int length, boolean isHorizontal, char symbol) {
         for (int i = 0; i < length; i++) {
             if (isHorizontal) {
@@ -30,7 +30,7 @@ public class Task11 {
             }
         }
         if (isHorizontal) {
-            System.out.println(); // New line after horizontal print
+            System.out.println();
         }
     }
 }

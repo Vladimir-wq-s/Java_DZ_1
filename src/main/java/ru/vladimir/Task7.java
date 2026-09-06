@@ -10,7 +10,7 @@ public class Task7 {
         System.out.print("Enter end of range: ");
         int end = scanner.nextInt();
 
-        // Normalization if bounds are wrong
+
         if (start > end) {
             int temp = start;
             start = end;

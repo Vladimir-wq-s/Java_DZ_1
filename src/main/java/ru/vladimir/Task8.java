@@ -10,7 +10,7 @@ public class Task8 {
         System.out.print("Enter end of multiplication range: ");
         int end = scanner.nextInt();
 
-        // Normalization if bounds are wrong
+
         if (start > end) {
             int temp = start;
             start = end;
